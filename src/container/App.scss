@@ -1,5 +1,44 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: #033353;
+  height: 100%;
+  max-height: 100%;
+  overflow: hidden;
+
+  #root {
+    height: 100%;
+  }
+}
+
 .App {
+  height: 100%;
+  padding: 2% 0;
+  background: #efcc19;
   text-align: center;
+  margin: auto;
+}
+
+@media screen and (min-width: 800px) {
+  .App {
+    width: 640px;
+  }
+}
+
+@media  screen and (max-width: 800px) {
+  .App {
+    width: 80%;
+  }
+}
+
+@media  screen and (max-width: 500px) {
+  .App {
+    width: 100%;
+    max-width: 400px;
+    min-width: 300px;
+  }
 }
 
 .App-logo {

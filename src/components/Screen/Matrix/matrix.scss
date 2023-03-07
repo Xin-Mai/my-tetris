@@ -1,0 +1,24 @@
+.matrix {
+  border: 2px solid #000;
+  height: fit-content;
+  padding-top: 2px;
+
+  &_row {
+    width: 100%;
+    margin: 1px 0 0 0;
+  }
+
+  &_block {
+    display: inline-block;
+    height: 0;
+    margin: 0 2px;
+    // margin: 2px 2px 0 2px;
+    border: 2px solid #879372;
+    // background: #879372;
+
+    &-filled {
+      background: #000;
+      border-color: #000;
+    }
+  }
+}

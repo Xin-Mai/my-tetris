@@ -1,0 +1,45 @@
+.keyboard {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+
+  &_setting {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: fit-content;
+    min-width: 20%;
+
+    &_button {
+      display: inline-block;
+      padding: 0 10px;
+    }
+  }
+
+  &_start {
+    position: absolute;
+    left: 0;
+    top: 100px;
+  }
+
+  &_control {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 20px;
+
+    &_middel {
+      display: inline-block;
+    }
+
+    &_left {
+      float: left;
+      margin-top: 25%;
+    }
+
+    &_right {
+      margin-top: 25%;
+      float: right;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.screen {
+  width: 60%;
+  height: 60%;
+  padding: 8px;
+  max-height: 478px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  border: solid 5px;
+  border-color: #987f0f #fae36c #fae36c #987f0f;
+  background-color: #9ead86;
+
+  &-matrix {
+    width: 60%
+  }
+
+  &-panel {
+    width: 35%;
+  }
+}

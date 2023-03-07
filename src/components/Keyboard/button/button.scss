@@ -1,0 +1,61 @@
+.basic-button {
+  border: 1px solid #000;
+  box-shadow: 0 3px 3px rgb(0 0 0 / 20%);
+
+  &_container {
+    position: relative;
+  }
+  
+  &-circle {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+
+  &-rect {
+    width: 100%;
+    height: 20%;
+    border-radius: 10%;
+  }
+
+  &-small {
+    width: 42px;
+    height: 42px;
+    font-size: small;
+  }
+
+  &-medium {
+    width: 80px;
+    height: 80px;
+    font-size: medium;
+  }
+
+  &-large {
+    width: 132px;
+    height: 132px;
+    font-size: large;
+  }
+
+  &-text {
+    position: absolute;
+    left: 0;
+    min-width: 100%;
+    margin: auto;
+
+    &_top {
+      bottom: 100%;
+    }
+
+    &_left {
+      top: 0;
+      right: 100%;
+      text-align: right;
+    }
+
+    &_right {
+      top: 0;
+      left: 100%;
+      text-align: left;
+    }
+  }
+}
